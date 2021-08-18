@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  role_name: iperf
+  author: do1jlr
+  description: Ansible role to install, configure and run an iperf3 server
+  license: "MIT"
+  min_ansible_version: 2.11
+  github_branch: main
+  platforms:
+    - name: Archlinux
+      versions: all
+    - name: Debian
+      versions: all
+    - name: Ubuntu
+      versions: all
+    - name: Fedora
+      versions: all
+  galaxy_tags:
+    - iperf
+    - iperf3
+    - network
+dependencies: []
