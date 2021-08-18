@@ -1,3 +1,17 @@
 ---
+# run systemd service with an iperf3 server (Y/n)
+iperf__systemd_enable: true
+
+iperf__packages:
+  - iperf3
+# change state to latest for upgrading iperf
+iperf__package_state: 'present'
+
+
+# some variables for user setup
+iperf__user: 'iperf'
+iperf__group: 'iperf'
+
+
 # should we do a version check? (recomended)
 submodules_versioncheck: false

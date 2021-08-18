@@ -1,0 +1,14 @@
+---
+- name: update repo-cache for debian/ubuntu
+  become: true
+  ansible.builtin.apt:
+    update_cache: true
+    cache_valid_time: 3600
+  when:
+    - ansible_pkg_mgr == "apt"
+
+- name: install iperf
+  become: true
+  ansible.builtin.package:
+    name: "{{ iperf__packages }}"
+    state: "{{ iperf__package_state }}"

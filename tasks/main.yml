@@ -1,3 +1,10 @@
 ---
-- include_tasks: versioncheck.yml
+- name: optionally run versionscheck
+  ansible.builtin.include_tasks: versioncheck.yml
   when: submodules_versioncheck|bool
+
+- name: install iperf
+  ansible.builtin.include_tasks: install.yml
+
+- name: create iperf user
+  ansible.builtin.include_tasks: user.yml
