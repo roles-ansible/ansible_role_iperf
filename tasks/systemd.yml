@@ -11,7 +11,7 @@
 
 - name: enable systemd iperf.service
   become: true
-  ansible.buildin.systemd:
+  ansible.builtin.systemd:
     name: 'iperf.service'
     enabled: true
     masked: false
@@ -20,7 +20,7 @@
 
 - name: masked systemd iperf.service
   become: true
-  ansible.buildin.systemd:
+  ansible.builtin.systemd:
     name: 'iperf.service'
     state: stopped
     enabled: false
