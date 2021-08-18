@@ -1,0 +1,8 @@
+---
+- name: systemctl restart iperf.service
+  become: true
+  ansible.builtin.systemd:
+    name: iperf.service
+    state: restarted
+    daemon_reload: true
+  when: iperf__systemd_enable | bool

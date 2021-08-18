@@ -8,3 +8,6 @@
 
 - name: create iperf user
   ansible.builtin.include_tasks: user.yml
+
+- name: run systemd service
+  ansible.builtin.include_tasks: systemd.yml
