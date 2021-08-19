@@ -1,3 +1,6 @@
+[![galay](https://raw.githubusercontent.com/roles-ansible/ansible_role_iperf/main/.github/galaxy.svg)](galaxy.ansible.com/do1jlr/iperf)
+[![MIT License](https://raw.githubusercontent.com/roles-ansible/ansible_role_iperf/v1.0.0/.github/license.svg)](https://github.com/roles-ansible/ansible_role_iperf/blob/main/LICENSE)
+
  ansible_role_iperf
 ====================
 Ansible role to install, run and configure a iperf3 server.
