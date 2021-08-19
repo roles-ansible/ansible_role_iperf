@@ -1,7 +1,7 @@
 ---
 # run systemd service with an iperf3 server (Y/n)
 iperf__systemd_enable: true
-iperf__options: '-s'
+iperf__options: '--server'
 
 iperf__packages:
   - iperf3
