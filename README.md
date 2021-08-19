@@ -1,4 +1,4 @@
-[![galay](https://raw.githubusercontent.com/roles-ansible/ansible_role_iperf/main/.github/galaxy.svg)](galaxy.ansible.com/do1jlr/iperf)
+[![galay](https://raw.githubusercontent.com/roles-ansible/ansible_role_iperf/main/.github/galaxy.svg)](https://galaxy.ansible.com/do1jlr/iperf)
 [![MIT License](https://raw.githubusercontent.com/roles-ansible/ansible_role_iperf/v1.0.0/.github/license.svg)](https://github.com/roles-ansible/ansible_role_iperf/blob/main/LICENSE)
 
  ansible_role_iperf
